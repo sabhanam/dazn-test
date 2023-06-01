@@ -1,0 +1,8 @@
+{
+    "QuizPage.AncientQuiz.Title": "xpath://h1[text()='Ancient Rome Quiz']",
+    "QuizPage.StartQuiz.Button": "xpath://button[text()='Start Quiz']",
+    "QuizPage.Question.Title": "xpath://h6[@class='card-title' and contains(text(), 'Question')]",
+    "QuizPage.Question.Text": "xpath://h5[@class='card-text']",
+    "QuizPage.Answer.Option": "xpath://button[text()='{0}']",
+    "QuizPage.Continue.Option": "//button[text()='Continue']"
+}

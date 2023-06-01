@@ -1,0 +1,25 @@
+{
+  "name": "dazn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "mocha": {
+    "timeout": 20000
+  },
+  "scripts": {
+    "test": "npx mocha",
+    "test:parallel": "mocha --reporter mocha.parallel 'test/*.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  },
+  "dependencies": {
+    "chromedriver": "^113.0.0",
+    "fs": "^0.0.1-security",
+    "mocha.parallel": "^0.15.6",
+    "path": "^0.12.7",
+    "selenium-webdriver": "^4.9.2"
+  }
+}
